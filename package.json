@@ -10,13 +10,18 @@
   },
   "author": "Wawa SENSEI <contact@wawasensei.dev>",
   "dependencies": {
+    "@google/generative-ai": "^0.24.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.7",
+    "elevenlabs": "^1.54.0",
     "elevenlabs-node": "^1.2.0",
     "express": "^4.18.2",
-    "openai": "^4.26.0"
+    "openai": "^4.86.2",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
-  }
+    "nodemon": "^3.0.1",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9"
 }
